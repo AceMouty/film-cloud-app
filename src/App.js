@@ -1,14 +1,15 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import logo from './img/TMDBLogo.svg'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={logo} className="logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Film Cloud. To be developed and powered by <a href="https://www.themoviedb.org/" style={{color: "#EB4E7A"}}>The Movie DB API</a>
         </p>
         <a
           className="App-link"
@@ -16,7 +17,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Written In React
         </a>
       </header>
     </div>
